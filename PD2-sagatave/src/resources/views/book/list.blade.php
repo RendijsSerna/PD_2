@@ -23,8 +23,6 @@
  <td>{{ $book->year }}</td>
  <td>&euro; {{ number_format($book->price, 2, '.') }}</td>
  <td>{!! $book->display ? '&#x2714;' : '&#x274C;' !!}</td>
-27 / 55
-K. Immers, VeA, 2023-05
  <td>
  <a
  href="/books/update/{{ $book->id }}"

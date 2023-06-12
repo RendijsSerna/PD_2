@@ -26,6 +26,10 @@ data-bs-target="#navbarNav">
 <li class="nav-item">
 <a class="nav-link" href="/authors">Autori</a>
 </li>
+<li class="nav-item">
+ <a class="nav-link" href="/books">Grāmatas</a>
+</li>
+
 </ul>
 </div>
 </div>
@@ -46,5 +50,6 @@ data-bs-target="#navbarNav">
 R, Šerna, 2023
 </div>
 </footer>
+<script src="./js/admin.js"></script>
 </body>
 </html>

@@ -92,8 +92,5 @@ public function delete(Book $book)
  $book->delete();
  return redirect('/books');
 }
-public function __construct()
-{
- $this->middleware('auth');
-}
+
 }

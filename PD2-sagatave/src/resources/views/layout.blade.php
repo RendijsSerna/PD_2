@@ -28,6 +28,9 @@ data-bs-target="#navbarNav">
  <a class="nav-link" href="/books">Grāmatas</a>
  </li>
  <li class="nav-item">
+ <a class="nav-link" href="/genres">Žanrs</a>
+ </li>
+ <li class="nav-item">
  <a class="nav-link" href="/logout">Beigt darbu</a>
  </li>
 @else

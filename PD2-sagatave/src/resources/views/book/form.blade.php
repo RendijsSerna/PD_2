@@ -42,8 +42,6 @@
  @enderror
  </div>
  <div class="mb-3">
- <label for="book-description" class="form-label">Apraksts</label>
- <div class="mb-3">
  <label for="book-image" class="form-label">Attēls</label>
  @if ($book->image)
  <img
@@ -63,7 +61,8 @@
  @enderror
 </div>
 
-
+<div class="mb-3">
+ <label for="book-description" class="form-label">Apraksts</label>
  <textarea
  id="book-description"
  name="description"

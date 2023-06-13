@@ -5,6 +5,8 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthorController;
 use App\Http\Controllers\BookController;
 use App\Http\Controllers\AuthController;
+use App\Http\Controllers\GenresController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -35,3 +37,8 @@ Route::post('/books/delete/{book}', [BookController::class, 'delete']);
 Route::get('/login', [AuthController::class, 'login'])->name('login');
 Route::post('/auth', [AuthController::class, 'authenticate']);
 Route::get('/logout', [AuthController::class, 'logout']);
+
+//genres lists
+Route::get('/genres', [GenresController::class, 'list']);
+Route::get('/genres/create', [GenresController::class, 'create']);
+Route::post('/genres/put', [GenresController::class, 'put']);
